@@ -1,5 +1,4 @@
-#### git_workflow_basics
-- https://github.com/lineality/git_workflow_basics
+##### git_workflow_basics https://github.com/lineality/git_workflow_basics
 
 # Git & Github Basics Introduction
 
