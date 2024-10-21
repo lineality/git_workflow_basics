@@ -279,6 +279,7 @@ Note: $ git branch -a will simply list all branches literally, not reflecting ho
 
 4. Submitting ~finished Features to the team-branch:
 When a team-member is done making and testing their feature-code (in their sub-sub-sub branch), they will do a pull-request to merge that code into the team-sprint branch.
+- 'gh' requires installing the gh package, git is usually pre-install in linux (made using git) but 'gh' for github is separate.
 ```bash
 	$ gh pr create {from branch to branch}...
 	```
