@@ -15,7 +15,9 @@
 6. Merge Conflicts & Managing Git Repos
 7. Cross-Functional Team Git workflow
 
-
+### Part III: Projects
+8. Code Study Project
+9. Portfolio Project
 
 
 ## 1. Git vs Github, & Linus Torvalds
@@ -327,4 +329,16 @@ Team-Spring(branch) <- specific feature-branch
 ```
 
 
+# Part III: Projects
+## 8. Code Study Project
+1. Make a GitHub Account
+2. Make a code_study repo
+3. Do a code challenge and turn that into a project file or directory
+4. Add to directory using Web GUI
+5. Do another code challenge and add that using cli
+6. Make a branch to add another code challenge and make a pull request
+(cli & web)
 
+## 9. Portfolio Project
+Make a github.io portfolio page.
+Add your coding_study repo as a porject.
