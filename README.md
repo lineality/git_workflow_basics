@@ -125,8 +125,8 @@ git push origin BRANCH_NAME
 ### Make pull requests directly with the web interface
 - https://github.com/lineality/definition_behavior_studies/pulls
 
-# 4. Example git branch workflow for sprint teams
-(see appendix)
+# 4. Setup: SSH & GPG
+For secure code uploading and downloading is it best to take a few minute to configure ssh and gpg keys with github. Github documentation on this is good (excellent as documentation goes). 
 
 
 ## # GPG, SSH: Githb Keys https://github.com/settings/keys 
@@ -139,16 +139,40 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generati
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account 
 
 
-## Resources
-- https://ohmygit.org/ (Game to learn about git workflow)
+
+# 5. Do projects & Mini-Projects as Git(hub) repos
+- "Keep your squares green."
+Both as a general good habit and for use in resumes and applications, it is a good idea to turn any 'project' you do into a large or small github repo.
+
+
+# Part II: Git & Work & School
+# 6. Merge Conflicts & Managing Git Repos
+(See appendix)
+
+# 7. Cross-Functional Team Git workflow
+(See appendix)
+
+# 8. One of Many Collaboration & Project Tools
+- Trello, Jira, Kanban
+- Instant Messengers: Slack
+- Documentation: Notion, Google-Docs
+
+## Uma: Open source team tools [Under Construction]
+https://github.com/lineality/uma_productivity_collaboration_tool 
+
+
+# Resources
+- https://ohmygit.org/ (A game to learn about git workflow)
 - Uma
 
 
-### References:
+# References:
 - https://en.wikipedia.org/wiki/Git
 - https://en.wikipedia.org/wiki/GitHub 
 - https://en.wikipedia.org/wiki/Linus_Torvalds 
 - https://klarasystems.com/articles/history-of-freebsd-unix-and-bsd/ 
+
+
 
 
 
