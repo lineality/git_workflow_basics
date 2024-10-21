@@ -6,7 +6,7 @@
 ## Contents
 
 ### Part I: Starting with Git
-1. Git vs Github, & Linus Torvold
+1. Git vs Github, & Linus Torvalds
 2. cli git
 3. github: WEB, CLI
 4. Setup: SSH & GPG
@@ -19,9 +19,10 @@
 
 
 
-## 1. Git vs Github, & Linus Torvold
-- software versioning & group collaboration
-- Linus Torvold made git (2005) for teams doing linux kernel development (which he released in 1991 (see the AT&T vs. U.C.Berkey history)). 
+## 1. Git vs Github, & Linus Torvalds
+Git is an indispensable team-collaboration tool for managing development and versions of software. Along with other tools such as task-planners and messaging tools, git is part of what makes daily life run in the coding-STEM world. 
+- git: software versioning & group collaboration
+- Linus Torvalds (et al) made git (2005) for teams doing linux kernel development (which he released in 1991 (see the AT&T vs. U.C.Berkey history)). 
 - Github (2008) is a freemium platform for public (and private) git projects. GitHub was purchased by Microsoft in 2018.
 - People sometimes used the terms interchangeably, but git exists beyond github.
 - a main difference between Github and Git is the convention of the "Pull Request" when submitting code for review and acceptance. (See workflow appendix for part 2.)
