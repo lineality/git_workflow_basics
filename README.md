@@ -12,20 +12,21 @@
 4. Setup: SSH & GPG
 5. Do projects & Mini-Projects as Git(hub) repos
 
-## Part II: Git & Work & School
+### Part II: Git & Work & School
 6. Merge Conflicts & Managing Git Repos
 7. Cross-Functional Team Git workflow
 
 
 
 
-# 1. Git vs Github, & Linus Torvold
+## 1. Git vs Github, & Linus Torvold
 - software versioning & group collaboration
 - Linus Torvold made git (2005) for teams doing linux kernel development (which he released in 1991 (see the AT&T vs. U.C.Berkey history)). 
 - Github (2008) is a freemium platform for public (and private) git projects. GitHub was purchased by Microsoft in 2018.
 - People sometimes used the terms interchangeably, but git exists beyond github.
 - a main difference between Github and Git is the convention of the "Pull Request" when submitting code for review and acceptance. (See workflow appendix for part 2.)
 
+## 2. cli git
 ### Daily-Use cli git commands (when nothing is wrong)
 - git status
 - git clone
@@ -107,7 +108,7 @@ git commit -m "Hello World"
 git push origin BRANCH_NAME
 ```
 
-# 3. github: WEB, CLI
+## 3. github: WEB, CLI
 
 ### Add files directly with the web interface:
 - upload
@@ -125,7 +126,7 @@ git push origin BRANCH_NAME
 ### Make pull requests directly with the web interface
 - https://github.com/lineality/definition_behavior_studies/pulls
 
-# 4. Setup: SSH & GPG
+## 4. Setup: SSH & GPG
 For secure code uploading and downloading is it best to take a few minute to configure ssh and gpg keys with github. Github documentation on this is good (excellent as documentation goes). 
 
 
@@ -140,24 +141,24 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a
 
 
 
-# 5. Do projects & Mini-Projects as Git(hub) repos
+## 5. Do projects & Mini-Projects as Git(hub) repos
 - "Keep your squares green."
 Both as a general good habit and for use in resumes and applications, it is a good idea to turn any 'project' you do into a large or small github repo.
 
 
 # Part II: Git & Work & School
-# 6. Merge Conflicts & Managing Git Repos
+## 6. Merge Conflicts & Managing Git Repos
 (See appendix)
 
-# 7. Cross-Functional Team Git workflow
+## 7. Cross-Functional Team Git workflow
 (See appendix)
 
-# 8. One of Many Collaboration & Project Tools
+## 8. One of Many Collaboration & Project Tools
 - Trello, Jira, Kanban
 - Instant Messengers: Slack
 - Documentation: Notion, Google-Docs
 
-## Uma: Open source team tools [Under Construction]
+### Uma: Open source team tools [Under Construction]
 https://github.com/lineality/uma_productivity_collaboration_tool 
 
 
@@ -178,7 +179,7 @@ https://github.com/lineality/uma_productivity_collaboration_tool
 
 # Appendices
 
-### To move head: e.g. reverting back from a problem
+## Appendix 1: move head: e.g. reverting back from a problem
 
 ### run git log on both:
 1. BRANCH_YOU_ARE_MOVING_THE_HEAD_OF and 
@@ -214,9 +215,9 @@ git push --force origin BRANCH_YOU_ARE_MOVING_THE_HEAD_OF
 
 
 
-## Appendix 2: Example Github branch workflow for sprint teams
+# Appendix 2: Example Github branch workflow for sprint teams
 
-# When a New Sprint Starts:
+### When a New Sprint Starts:
 
 Work in a development (dev) branch:
 Work (making features) during the sprint will be done in the dev branch in github. 
